@@ -8,23 +8,34 @@ How to build and run tests from the terminal:
 
 1. Basic Statistics uses Apache Ant.  Make sure that you have Ant installed.  https://ant.apache.org/
 
-2. cd into the root directory, which contains the build.xml build file.
+2. cd into the Basic Statistics root directory, which contains the `build.xml` build file.
 
-3. Run `ant` to compile.
+3. Run `ant` to compile Basic Statistics.
 
-4. Compiled java classes will be in the `bin` directory.
+4. The compiled Basic Statistics class files will be in the `bin` directory.
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 5. Run `ant test` to run all unit tests.
+=======
+5. Run `ant -lib lib/ test` to run all Basic Statistics unit tests.
+>>>>>>> aad2f3e (Updated the test command)
+=======
+5. Run `ant test` to run all Basic Statistics unit tests.
+>>>>>>> 61ffac5 (clearing up step 5)
+=======
+5. Run `ant -lib lib/ test` to run all Basic Statistics unit tests.
+>>>>>>> aad2f3e (Updated the test command)
 
 6. Whenever you want to clean up the project, run `ant clean`
 
-How to run (from Terminal):
+How to run Basic Statistics (from the terminal):
 
-1. After building the project (i.e., running `ant`), cd into the `bin`
-   directory and run: `java BasicStats`. The application's GUI should show up.
+1. After building the project (i.e., running `ant`), cd into the `bin` directory and run: `java BasicStats`. The application's GUI will show up.
 
 Program features:
-* Displayed numbers
-* Mean computation
-* Median computation
-* Mode computation
+* Displays a set of entered numbers.
+* Computes the mean of the set of numbers.
+* Computes the median of the set of numbers.
+* Computes the mode of the set of numbers.
