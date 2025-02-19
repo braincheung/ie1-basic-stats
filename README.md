@@ -1,10 +1,10 @@
 # Basic Statistics
-
+THIS IS THE CHANGE THAT I AM MAKING FOR PART 4 of IN CLASS EXERCISE 1  
 Basic Statistics is a Java-based implementation for computing statistics on a set of numbers.
 This implementation is intended to be used in software engineering courses as
 a subject software system.
 
-Basic Statistics uses the Apache Ant build system. **Make sure that you have [Ant](https://ant.apache.org) installed.**
+Changing read me again, this is another test
 
 #### How to build Basic Statistics and run its tests from the terminal:
 
