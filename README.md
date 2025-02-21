@@ -4,8 +4,8 @@ Basic Statistics is a Java-based implementation for computing statistics on a se
 This implementation is intended to be used in software engineering courses as
 a subject software system.
 
-Changing read me again, this is another test
-
+Thi sis a test for git reset and revert
+adding another line after reset
 #### How to build Basic Statistics and run its tests from the terminal:
 
 1. Change into the Basic Statistics root directory, which contains the *build.xml* build file.
